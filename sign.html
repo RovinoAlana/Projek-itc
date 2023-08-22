@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <script src="jquery.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo"><a href="index.php"><img src="images/logo.png" style="width:200px" alt=""> </a>
+        </div>
+        <nav>    
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html" >Menu</a></li>
+                <li><a href="sign.html" class="active">Sign Up</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <i class="fa fa-bars"></i>
+        </div>
+    </header>
+
+<main>
+    <article class="tengah" style="width:50%">
+        <figure style="padding-top: 40px;font-size: 40px; font-weight: bold">
+            SIGN UP <br>
+            <p style="font-size: 20px;">Sign up to get the latest news from us
+            </p></figure>
+
+        <center>
+            <div style="margin:30px 0px;height: 1px; width: 100%; background-color: white; opacity: 15%"></div>
+        </center>
+
+        <div class="p-5" style="padding:10px;background: #EAD4CD; width:100%">
+            <form style="margin:30px 0px;">
+                <div style="margin-bottom:30px">
+                    <h1> SIGN UP </h1>
+                </div>
+                <div style="margin-bottom:30px">
+                <label style="font-size: 20px">First Name</label><br>
+                    <input required style="width:80%;height:30px" type="text" name="first_name" placeholder="Your First Name">
+                </div>
+                <div style="margin-bottom:30px">
+                <label style="font-size: 20px">Last Name</label><br>
+                    <input required style="width:80%;height:30px" type="text" name="last_name" placeholder="Your Last Name">
+                </div>
+                <div style="margin-bottom:30px">
+                    <h1> Contact Detail </h1>
+                </div>
+                <div style="margin-bottom:30px">
+                <label style="font-size: 20px">Phone Number</label><br>
+                    <input required style="width:80%;height:30px" type="text" name="contact" placeholder="Enter Phone Number">
+                </div>
+                <div style="margin-bottom:30px">
+                <label style="font-size: 20px">Email</label><br>
+                    <input required style="width:80%;height:30px" type="email" name="email" placeholder="Enter Email Address">
+                </div>
+                <div style="margin-bottom:30px">
+                <label style="font-size: 20px">Address</label><br>
+                    <input required style="width:80%;height:30px" type="text" name="address" placeholder="Enter Address">
+                </div>
+                <div style="margin-bottom:30px">
+                    <h1> Account Detail </h1>
+                </div>
+                <div style="margin-bottom:30px">
+                <label style="font-size: 20px">Username</label><br>
+                    <input required style="width:80%;height:30px" type="text" name="username" placeholder="Enter Username">
+                </div>
+                <div style="margin-bottom:30px">
+                <label style="font-size: 20px">Password</label><br>
+                    <input required style="width:80%;height:30px" type="password" name="password" placeholder="Enter Password">
+                </div>
+                <input type="submit" style="height: 38px; width: 30%;">
+            </form>
+        </div>
+    </article>
+</main>
+
+<!-- <footer  style="background: #E8DCC6; font-size:18px">
+    <div class="footer-content">
+        <img src="images/logo.png" style="width:150px" alt="">
+        <p>A Middle Eastern Fine Dining Restaurant</p> 
+    </div>
+    <div class="footer-bottom">
+        <p>copyright &copy;2023 by Gweh Sendiri  </p>
+    </div>
+</footer> -->
+
+<script>
+    $(document).ready(function () {
+        $(".menu-toggle").click(function () {
+            $('nav').toggleClass('active');
+        })
+    })
+</script>
+</body>
+</html>

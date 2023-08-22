@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <script src="jquery.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo"><a href="index.php"><img src="images/logo.png" style="width:200px" alt=""> </a>
+        </div>
+        <nav>    
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="menu.html" >Menu</a></li>
+                <li><a href="sign.html" >Sign Up</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <i class="fa fa-bars"></i>
+        </div>
+    </header>
+
+<main>
+    <article style="padding-top: 50px;">
+        <div class="row2" style="padding:70px;font-size: 25px;">
+            <center>
+            <div class="column2" style="padding: 30px 30px">
+                <hr style="background-color: black; width: 100%; height:4px">
+            </div>
+            <div class="column2">
+                <h3>WHAT'S ON THE MENU</h3>
+            </div>
+            <div class="column2" style="padding: 30px 30px">
+                <hr style="background-color: black; width: 100%; height:4px">
+            </div>
+        </center>
+        </div>
+    </article>
+    <center>
+    <h6 style="margin: 0px 50px;font-size: 15px;">
+        Served and made with high quality products. Made directly by a 30-years of experience chef.
+        With a special recipe and warm arabic atmosphere, <br>highly recommended for family dinner
+    </h6>
+    <h6 style="margin: 0px 50px;font-size: 15px;">
+You Can Download The Menu <a href="menu.html">here</a> </h6> 
+</center>
+    <article style="padding-top: 0px;">
+
+        </div>
+    </article>
+
+<!-- <footer  style="background: #E8DCC6; font-size:18px">
+    <div class="footer-content">
+        <img src="images/logo.png" style="width:150px" alt="">
+        <p>A Middle Eastern Fine Dining Restaurant</p> 
+    </div>
+    <div class="footer-bottom">
+        <p>copyright &copy;2023 by Gweh Sendiri  </p>
+    </div>
+</footer> -->
+
+<script>
+    $(document).ready(function () {
+        $(".menu-toggle").click(function () {
+            $('nav').toggleClass('active');
+        })
+    })
+</script>
+</body>
+</html>
