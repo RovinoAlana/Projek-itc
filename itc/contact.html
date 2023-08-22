@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <script src="jquery.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo"><a href="index.php"><img src="images/logo.png" style="width:200px" alt=""> </a>
+        </div>
+        <nav>    
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html" >Menu</a></li>
+                <li><a href="sign.html">Sign Up</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <i class="fa fa-bars"></i>
+        </div>
+    </header>
+
+<main>
+    <article style="padding-top: 150px;">
+    <div class="row2" style="padding:70px;font-size: 25px;">
+        <center>
+        <div class="column2" style="padding: 0px 30px">
+            <h3>LOCATION</h3>
+            <h5>
+                Jl.baguy, Kalasan, Sleman, Yogyakarta
+            </h5>
+        </div>
+        <div class="column2" style="padding: 0px 30px">
+            <h3>HOURS </h3>
+            <h5>
+                Monday - Saturday: 5pm -11pm
+            </h5>
+        </div>
+        <div class="column2" style="padding: 0px 30px">
+            <h3>CONTACT US </h3>
+            <h5>
+                Phone : 08811111111 <br>
+                Email : Farhankebab@gmail.com
+                instagram: farhankebab
+
+            </h5>
+        </div>
+    </center>
+    </div>
+</article>
+</main>
+
+<!-- <footer  style="background: #E8DCC6; font-size:18px">
+    <div class="footer-content">
+        <img src="images/logo.png" style="width:150px" alt="">
+        <p>A Middle Eastern Fine Dining Restaurant</p> 
+    </div>
+    <div class="footer-bottom">
+        <p>copyright &copy;2023 by Gweh Sendiri  </p>
+    </div>
+</footer> -->
+
+<script>
+    $(document).ready(function () {
+        $(".menu-toggle").click(function () {
+            $('nav').toggleClass('active');
+        })
+    })
+</script>
+</body>
+</html>

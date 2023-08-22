@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <script src="jquery.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo"><a href="index.php"><img src="images/logo.png" style="width:200px" alt=""> </a>
+        </div>
+        <nav>    
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="menu.html" >Menu</a></li>
+                <li><a href="sign.html" >Sign Up</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <i class="fa fa-bars"></i>
+        </div>
+    </header>
+
+<main>
+    <article style="height:170px;width:100%; background-size: 100%, contain;background-repeat: no-repeat, no-repeat;
+    background-position:center;background-image: url(images/header.jpg);""> 
+    </article>
+    <article>
+        <center>
+        <h1 class="text-center">An Elegant Middle-Eastern Dinner Experience For You</h1>
+        </center>
+    </article>
+    <div class="row" style="padding-top:20px">
+        <div class="column">
+            <center><img src="images/desc1.jpg" style="width:400px" >
+            </center>
+        </div>
+        <div class="column">
+            <h3>Best Ingredients For The Best Product </h3>
+            <h5>
+                We use high quality and premium ingredients. We make sure that you will get the best quality of product by using spices and ingredients that are directly imported from the best suppliers.
+            </h5>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <h3>True Taste of Kebab </h3>
+            <h4>
+                Discover the true definition of enjoyment only at Farhan Kebab.
+            </h4>
+            <h5>
+                Inspired by the rich flavours of Arabic cuisine, our recipe is made by Mr. Farhan as the owner and the maestro who is fluent in Middle-Eastern spices . Find the pleasure in every options across our Arabic-style menus.
+            </h5>
+        </div>
+        <div class="column">
+            <center><img src="images/desc2.jpg" style="width:400px"></center>
+        </div>
+    </div>
+</main>
+
+<!-- <footer  style="background: #E8DCC6; font-size:18px">
+    <div class="footer-content">
+        <img src="images/logo.png" style="width:150px" alt="">
+        <p>A Middle Eastern Fine Dining Restaurant</p> 
+    </div>
+    <div class="footer-bottom">
+        <p>copyright &copy;2023 by Gweh Sendiri  </p>
+    </div>
+</footer> -->
+
+<script>
+    $(document).ready(function () {
+        $(".menu-toggle").click(function () {
+            $('nav').toggleClass('active');
+        })
+    })
+</script>
+</body>
+</html>
